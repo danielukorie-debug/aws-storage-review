@@ -1,0 +1,39 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and secrets
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+.aws/
+credentials
+
+# Local storage and backup data
+local-lab/
+*.img
+*.tar.gz
+
+# Raw evidence reports
+evidence/*
+!evidence/portfolio/
+!evidence/portfolio/validation-summary.txt
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
